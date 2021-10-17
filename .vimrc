@@ -12,6 +12,7 @@ set incsearch
 set nohlsearch
 set scrolloff=8
 set signcolumn=yes
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
